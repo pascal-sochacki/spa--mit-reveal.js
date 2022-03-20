@@ -1,0 +1,18 @@
+{
+  "name": "starter",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build --base=spa--mit-reveal.js/",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/reveal": "^4.2.0",
+    "typescript": "^4.5.4",
+    "vite": "^2.8.0"
+  },
+  "dependencies": {
+    "reveal.js": "^4.3.0"
+  }
+}

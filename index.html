@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="/node_modules/reveal.js/dist/reveal.css"/>
+    <link rel="stylesheet" href="/node_modules/reveal.js/dist/theme/black.css"/>
+    <link rel="stylesheet" href="/style.css">
+    <title>Vite App</title>
+</head>
+<body>
+<div class="reveal">
+    <div class="slides">
+        <section>
+            Simple Presentation
+        </section>
+        <section>
+            <pre><code filename="test.yaml"></code></pre>
+        </section>
+        <section data-background-color="aquamarine">
+            <pre><code filename="test2.yaml"></code></pre>
+        </section>
+        <section data-auto-animate>
+            <div data-id="box1">
+                <pre><code filename="test.yaml"></code></pre>
+            </div>
+            <div data-id="box2" style="height: 50px; background: salmon;">test.yaml</div>
+        </section>
+        <section data-auto-animate>
+            <div data-id="box1" style="height: 50px; background: salmon;">test.yaml</div>
+            <div data-id="box2">
+                <pre><code filename="test.yaml"></code></pre>
+            </div>
+        </section>
+        <section data-auto-animate>
+            <div data-id="box1" style="height: 200px; background: blue;"></div>
+        </section>
+    </div>
+</div>
+<script type="module" src="/src/main.ts"></script>
+</body>
+</html>
